@@ -131,3 +131,12 @@ body {
     width: 150px;
     height: 30px;
 }
+
+/*Footer*/
+.footer {
+    padding: 50px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    font-size: 24px;
+}
