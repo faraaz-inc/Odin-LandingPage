@@ -1,6 +1,6 @@
 body {
-    margin-left: 150px;
-    margin-right: 150px;
+    margin: 0;
+    padding: 0;
 }
 /*Header*/
 .header {
@@ -12,15 +12,45 @@ body {
     font-size: 24px;
     font-weight: bolder;
     flex: 4;
+    padding: 20px;
 }
 .headerLink {
     font-size: 18px;
     color: #E5E7EB;
     flex: 1;
+    padding: 20px;
 }
 /*Top*/
 .top {
     display: flex;
+    justify-content: center;
     padding-top: 150px;
     padding-bottom: 150px;
+    background-color: #1F2937;
+}
+
+.MainHeading {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin-right: 50px;
+}
+.Top_SecondaryText {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-right: 200px;
+}
+.Signup1 {
+    margin-top: 10px;
+    font-size: 24px;
+    width: 150px;
+    height: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    text-align: center;
+    
+    font-weight: bold;
 }
