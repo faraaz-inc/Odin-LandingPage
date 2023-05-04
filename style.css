@@ -1,18 +1,26 @@
 body {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
+/*Header*/
 .header {
     display: flex;
     background-color: #1F2937;
     color: #F9FAF8;
 }
-.header .Headerlogo {
+.headerLogo {
     font-size: 24px;
     font-weight: bolder;
-    flex-grow: 4;
+    flex: 4;
 }
-.header .Headerlink {
+.headerLink {
     font-size: 18px;
     color: #E5E7EB;
+    flex: 1;
+}
+/*Top*/
+.top {
+    display: flex;
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
