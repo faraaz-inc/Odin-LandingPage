@@ -12,3 +12,7 @@ body {
     font-weight: bolder;
     flex-grow: 4;
 }
+.header .Headerlink {
+    font-size: 18px;
+    color: #E5E7EB;
+}
