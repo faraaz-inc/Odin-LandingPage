@@ -93,3 +93,41 @@ body {
     text-align: right;
     margin-right: 350px;
 }
+.Action {
+    display: flex;
+    justify-content: center;
+}
+.Action .box {
+    display:flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 75px;
+    border-radius: 20px;
+    background-color: #3882F6;
+    justify-content: center;
+}
+.box .text {
+    text-align: left;
+    color: #F9FAF8;
+}
+.box .text .heading {
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 0;
+}
+.box .text .desc {
+    padding-top: 0;
+    font-size: 20px;
+}
+.box .button {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    border-color: #F9FAF8;
+    border-style: solid;
+    border-width: 2px;
+    width: 150px;
+    height: 30px;
+}
